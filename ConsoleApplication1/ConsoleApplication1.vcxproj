@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClCompile Include="first.cpp" />
     <ClCompile Include="second.cpp" />
-    <ClCompile Include="third.cpp" />
+    <ClCompile Include="Caculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

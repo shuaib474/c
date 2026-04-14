@@ -2,25 +2,16 @@
 using namespace std;
 int jsq();
 double calc(double x,double y,char z);
-int main()
-{
-	cout << "计算器启动成功" << endl;
-		jsq();
-	return 0;
-}
 int jsq()
 {
 	char choose;
+	cout << "计算器启动成功" << endl;
 	do
 	{
 		double a, b;
 		char f;
-		cout << "请输入第一个数字:";
-		cin >> a;
-		cout << "请输入第二个数字:";
-		cin >> b;
-		cout << "输入运算符号:";
-		cin >> f;
+		cout << "输入算式" << endl;
+		cin >> a >> b >> f;
 		calc(a, b, f);
 		double res = calc(a, b, f);
 		cout << "计算结果是:" << res << endl;
