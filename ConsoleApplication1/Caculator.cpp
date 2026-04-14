@@ -2,6 +2,11 @@
 using namespace std;
 int jsq();
 double calc(double x,double y,char z);
+int main()
+{
+	jsq();
+	return 0;
+}
 int jsq()
 {
 	char choose;
@@ -11,8 +16,7 @@ int jsq()
 		double a, b;
 		char f;
 		cout << "输入算式" << endl;
-		cin >> a >> b >> f;
-		calc(a, b, f);
+		cin >> a >> f >> b;
 		double res = calc(a, b, f);
 		cout << "计算结果是:" << res << endl;
 		cout << "继续K或者k,退出m:";
@@ -38,6 +42,15 @@ double calc(double x, double y,char z)
 		return x * y;
 	}
 	else if (z == '/') {
+		if (y == 0)
+		{
+			cout << "错误,除数不能为0" << endl;
+			return 0;
+		}
 		return x / y;
+	}
+	else {
+		cout << "无效运算符" << endl;
+		return 0;
 	}
 }
