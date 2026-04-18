@@ -9,8 +9,8 @@ int xt()
 	std::vector<int>score_list;
 	score_list.reserve(20);
 	do {
-		std::cout << 1 << "." << "添加\n";
-		std::cout << 2 << "." << "查看\n";
+		std::cout << 1 << "."<< "添加"<<"   ";
+		std::cout << 2 << "." <<"查看"<<"   ";
 		std::cout << 3 << "." << "退出 \n";
 		std::cin >> choice;
 		if (choice == 1)
@@ -26,6 +26,11 @@ int xt()
 		}
 		else if (choice == 2)
 		{
+			if (names_list.empty())
+			{
+				std::cout << "还没有数据,请先添加\n";
+				continue;
+			}
 			for (size_t i = 0; i <names_list.size(); i++)
 			{
 				std::cout << "名字:" << names_list[i] << " " << score_list[i] << "\n";
