@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="first.cpp" />
+    <ClCompile Include="rexuesheng.cpp" />
     <ClCompile Include="second.cpp" />
     <ClCompile Include="Caculator.cpp" />
     <ClCompile Include="xuesheng.cpp" />

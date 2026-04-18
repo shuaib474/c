@@ -1,6 +1,6 @@
-int xuesheng();
 int main()
 {
-	xuesheng();
+	int xt();
+	xt();
 	return 0;
 }
