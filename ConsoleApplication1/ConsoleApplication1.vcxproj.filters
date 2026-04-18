@@ -24,5 +24,8 @@
     <ClCompile Include="Caculator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="xuesheng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

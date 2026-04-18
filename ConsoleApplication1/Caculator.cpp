@@ -2,11 +2,6 @@
 using namespace std;
 int jsq();
 double calc(double x,double y,char z);
-int main()
-{
-	jsq();
-	return 0;
-}
 int jsq()
 {
 	char choose;
