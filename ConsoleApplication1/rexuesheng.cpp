@@ -3,6 +3,7 @@
 #include <vector>
 int xt()
 {
+	std::cout << " 添加时输入姓名与分数,分行输入\n";
 	int choice;
 	std::vector<std::string>names_list;//盒子定义在外面防止被刷
 	names_list.reserve(20);
@@ -16,9 +17,10 @@ int xt()
 		if (choice == 1)
 		{
 			std::cin.ignore();//忽略上一个cin遗留的回车
-			std::cout << "输入名字:\n";
+			std::cout << "输入名字:";
 			std::string names;
 			std::getline(std::cin, names);
+			std::cout << "输入分数:";
 			float scores;
 			std::cin >> scores;
 			names_list.push_back(names);
@@ -36,9 +38,14 @@ int xt()
 				std::cout << "名字:" << names_list[i] << " " << score_list[i] << "\n";
 			}
 		}
+		else if (choice == 3)
+		{
+			std::cout << "已退出" << std::endl;
+			break;
+		}
 		else if (choice != 1 && choice != 2)
 		{
-			std::cout << "输入出错,退出程序" << std::endl;
+			std::cout << "格式错误" << std::endl;
 			break;
 		}
 	} while (choice != 3);

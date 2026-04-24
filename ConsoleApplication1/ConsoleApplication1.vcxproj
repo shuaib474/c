@@ -127,6 +127,7 @@
     <ClCompile Include="rexuesheng.cpp" />
     <ClCompile Include="second.cpp" />
     <ClCompile Include="Caculator.cpp" />
+    <ClCompile Include="x64\third.cpp" />
     <ClCompile Include="xuesheng.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

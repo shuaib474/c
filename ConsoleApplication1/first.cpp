@@ -1,6 +1,6 @@
 int main()
 {
-	int xt();
-	xt();
+	int xunlie();
+	xunlie();
 	return 0;
 }
