@@ -30,7 +30,10 @@
     <ClCompile Include="rexuesheng.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="x64\third.cpp">
+    <ClCompile Include="third.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fuurth.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

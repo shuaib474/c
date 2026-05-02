@@ -1,6 +1,6 @@
+int hezi();
 int main()
 {
-	int xunlie();
-	xunlie();
+	hezi();
 	return 0;
 }
