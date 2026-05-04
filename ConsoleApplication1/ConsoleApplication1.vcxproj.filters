@@ -36,5 +36,8 @@
     <ClCompile Include="fuurth.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="caidanci_xiangmu_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

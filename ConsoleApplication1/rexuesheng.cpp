@@ -21,6 +21,7 @@ int xt()
 			std::string names;
 			std::getline(std::cin, names);
 			std::cout << "ÊäÈë·ÖÊı:";
+
 			float scores;
 			std::cin >> scores;
 			names_list.push_back(names);

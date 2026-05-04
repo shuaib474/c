@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="caidanci_xiangmu_2.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="fuurth.cpp" />
     <ClCompile Include="rexuesheng.cpp" />

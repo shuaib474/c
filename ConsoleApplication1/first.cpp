@@ -1,6 +1,6 @@
-int hezi();
+int caidanci();
 int main()
 {
-	hezi();
+	caidanci();
 	return 0;
 }
